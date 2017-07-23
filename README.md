@@ -1,3 +1,4 @@
+##Project Assignment by Udacity as part of the javascript course
 ## How to do this project?
 
 1. Go to the [Javascript Basics course](https://www.udacity.com/course/ud804) and select "View Course Materials."
