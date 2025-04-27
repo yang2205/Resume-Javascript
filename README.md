@@ -77,7 +77,7 @@ Users can add new tasks to the to-do list.
 
 2.Check off completed items
 Completed tasks can be checked off, and the app will update accordingly.
-![检查已完成任务截图](images/screenshot_check_task.jpg)
+![检查已完成任务截图](images/images/screenshot_check_task.jpg)
 
 ## License
 
