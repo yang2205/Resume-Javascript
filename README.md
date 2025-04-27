@@ -72,12 +72,12 @@ Resume-Javascript-Project/
 <!-- Features Section - Authored by 杨慧萍 -->
 1.Add Task
 Users can add new tasks to the to-do list.
-![任务添加功能截图](images/screenshot_add_task.png)
+![任务添加功能截图](images/screenshot_add_task.jpg)
 
 
 2.Check off completed items
 Completed tasks can be checked off, and the app will update accordingly.
-![检查已完成任务截图](images/screenshot_check_task.png)
+![检查已完成任务截图](images/screenshot_check_task.jpg)
 
 ## License
 
