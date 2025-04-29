@@ -1,30 +1,36 @@
 # Resume - Javascript Project
 
 <!-- Project Description & Overview - Authored by 杨慧萍 -->
-A lightweight and easy-to-use to-do list manager built with JavaScript and Vue.js. This application allows you to efficiently add, complete, and delete tasks, making it an ideal tool for personal time management. It also serves as a demonstration of your front-end development skills, particularly in JavaScript and Vue.js, for your resume.
+This project is an online resume website that showcases personal information, work experience, project experience, educational background, and skills. Built using HTML, CSS, JavaScript, and Vue.js, the website features a responsive design, ensuring it displays well on various devices.
 
 ## ✨ Features
 
 <!-- Features Section - Authored by 杨慧萍 -->
-- 📝 **Comprehensive Task Management:**
-  - **Add Tasks:** Easily add new tasks with detailed descriptions through a user-friendly interface.
-  - **Edit Tasks:** Modify existing tasks to keep your to-do list up-to-date.
-  - **Delete Tasks:** Remove tasks that are no longer relevant.
+- 📝 **Personal Information Display:**
+  - **Description:** Display personal basic information, including name, contact details (email, phone), GitHub, Twitter, etc.
+  - **Implementation:** Use HTML and CSS for layout, with information displayed directly through HTML content.
+  - **Screenshot:** <img src="images/sreya.png" />
 
-- ✅ **Intuitive Task Completion Tracking:**
-  - **Check off Completed Items:** Mark tasks as completed by simply checking the box next to each task.
-  - **Real-time Updates:** The application dynamically updates the task list, clearly distinguishing between completed and pending tasks, providing a clear overview of your progress.
+- ✅ **Work Experience:**
+  - **Description:**  List work experiences, including company names, positions, and durations.
+  - **Implementation:** Use HTML list elements to display work experiences, with detailed time periods and job descriptions.
+  - **Screenshot：** <img src="images/screenshot_check_task.png" />
 
-- 💾 **Persistent Local Storage:**
-  - **Browser-Based Storage:** Utilizes the browser's LocalStorage to save your task data locally. This ensures your task list remains intact even after closing the browser or refreshing the page.
+- 💾 **Project Experience:**
+  - **Description:** List projects participated in, along with their descriptions. Each project includes the project name, time period, and description.
+  -  **Implementation:**  Use HTML and CSS for layout, with each project displayed as a list item containing the project name, time period, and detailed description.
+  - **Screenshot：** <img src="images/screenshot_add_task.png" />
+  
 
-- 🎨 **Responsive Design:**
-  - **Cross-Device Compatibility:** Features a responsive design that adapts seamlessly to various screen sizes, ensuring a consistent and optimal user experience across desktops, tablets, and mobile devices.
+- 🎨 **Educational Background:**
+  - **Description:**  List educational experiences, including school names, time periods, and majors.Implementation: Use HTML list elements to display educational experiences, with each experience including the school name, time period, and major.
+  - **Screenshot：** <img src="images/screenshot_task_list.png" />
 
-- 🛠️ **Technology Stack Showcase (For Resume):**
-  - **JavaScript Proficiency:** Demonstrates your strong grasp of JavaScript for implementing interactive functionalities.
-  - **Vue.js Framework:** Highlights your ability to build modern front-end interfaces using the Vue.js framework.
-  - **Component-Based Development:** Showcases good development practices through the use of reusable components, enhancing code maintainability and reusability.
+
+- 🛠️ **Skills Display:**
+  - **Description:** List the skills acquired.
+  - **Implementation** Use HTML and CSS for layout, with skills listed in bullet points.
+  - **Screenshot：** <img src="images/screenshot_delete_task.png" />
 
 ## 🚀 Getting Started
 
@@ -36,6 +42,7 @@ To get started with this project, follow these steps:
 ```bash
 git clone https://github.com/yang2205/Resume-Javascript.git
 cd Resume-Javascript-Project
+```
 
 ### Install dependencies
 
@@ -52,7 +59,7 @@ npm run dev
 Visit `http://localhost:8080` in your browser to see the app in action.
 
 ## 📦 Project Structure
-<!-- Features Section - Authored by 杨慧萍 -->
+<!-- Features Section - Authored by 全璐瑶 -->
 ```
 Resume-Javascript-Project/
 ├── images/                   # Project images
@@ -69,19 +76,19 @@ Resume-Javascript-Project/
 ```
 
 ## 📮 Primary function & Screenshot
-<!-- Features Section - Authored by 杨慧萍 -->
+<!-- Features Section - Authored by 全璐瑶  -->
 1.Add Task
 Users can add new tasks to the to-do list.
-![任务添加功能截图](images/screenshot_add_task.png)
+![任务添加功能截图](images/screenshot_add_task.jpg)
 
 
 2.Check off completed items
 Completed tasks can be checked off, and the app will update accordingly.
-![检查已完成任务截图](images/screenshot_check_task.png)
+![检查已完成任务截图](images/screenshot_check_task.jpg)
 
 ## License
 
-<!-- License Section - Authored by 杨慧萍 -->
+<!-- License Section - Authored by 全璐瑶  -->
 This project is licensed under the MIT License. For more details, please refer to the [LICENSE file][LICENSE][def2].
 [def2]: https://choosealicense.com/licenses/mit/
 
