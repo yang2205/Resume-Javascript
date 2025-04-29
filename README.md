@@ -42,6 +42,7 @@ To get started with this project, follow these steps:
 ```bash
 git clone https://github.com/yang2205/Resume-Javascript.git
 cd Resume-Javascript-Project
+```
 
 ### Install dependencies
 
