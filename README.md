@@ -42,7 +42,6 @@ To get started with this project, follow these steps:
 ```bash
 git clone https://github.com/yang2205/Resume-Javascript.git
 cd Resume-Javascript-Project
-```
 
 ### Install dependencies
 
@@ -75,16 +74,40 @@ Resume-Javascript-Project/
     └── main.js               # Entry point for the app
 ```
 
-## 📮 Primary function & Screenshot
+
+
+## 📮Technology Stack Analysis
 <!-- Features Section - Authored by 全璐瑶  -->
-1.Add Task
-Users can add new tasks to the to-do list.
-![任务添加功能截图](images/screenshot_add_task.jpg)
+- 📝 **Vue.js:**
+Purpose: For building responsive component systems and frontend page state management.
+roles in resume projects:
+If the resume project is "dynamic and interactive" (for example, by clicking to switch content or expand and collapse modules), Vue can be used to simplify UI construction and data binding.
 
+- 📝 **JavaScript:**
+Purpose: To implement the interactive functions of the page.
+Role in resume projects:
+Control buttons, click events, scroll effects, or dynamic data rendering (such as work experience or project lists loaded via JavaScript).
 
-2.Check off completed items
-Completed tasks can be checked off, and the app will update accordingly.
-![检查已完成任务截图](images/screenshot_check_task.jpg)
+- 📝 **HTML5:**
+Purpose: To define the structure and semantics of web pages.
+Role in resume projects:
+Construct a basic page structure such as titles, paragraphs, images, hyperlinks, lists, etc.
+
+- 📝 **CSS3:**
+Purpose: For page styles and responsive layouts (such as media queries).
+Role in resume projects:
+Control colors, fonts, spacing, and layout to make the resume page look professional and aesthetically pleasing.
+Achieving responsive support for different devices.
+
+- 📝 **CSS (Extended Syntax for SASS):**
+Purpose: To make CSS more structured, such as supporting advanced features like variables, nesting, and mixing.
+Role in resume projects:
+To organize styles more efficiently, such as unifying color variables and component style reuse.
+
+## !!Summary!!:
+<!-- Features Section - Authored by 全璐瑶  -->
+This project is a clearly structured and fully functional online resume page template, which is suitable for displaying professional information of developers, especially for front-end beginners to practice or make personal portfolios.
+
 
 ## License
 
