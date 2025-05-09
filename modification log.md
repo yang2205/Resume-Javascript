@@ -1,9 +1,34 @@
+```markdown
 # Modification Log - AI 修改记录
 <!--  Authored by 江尚昆 -->
 
 > 按时间顺序整合团队成员的 AI 使用修改记录，格式遵循 Markdown 规范  
-> 最后更新：2024-01-04  
+> 最后更新：2024-05-08  
 > 维护人：江尚昆
+
+---
+
+## 2024-01-05
+### 用户反馈系统集成
+1. **新增反馈表单组件**  
+   - 在简历页面底部添加用户反馈入口（来源：`用户需求文档`）  
+   ```vue
+   <!-- FeedbackForm.vue -->
+   <template>
+     <div class="feedback-section">
+       <h3>意见反馈</h3>
+       <textarea v-model="feedbackText" placeholder="请输入至少20字有效反馈"></textarea>
+       <button @click="submitFeedback">📮 提交</button>
+     </div>
+   </template>
+   ```
+   - 对接后端 API 接口（新增 14 行代码）
+
+2. **移动端标注规范**  
+   - 强制截图文件名包含设备型号和分辨率（来源：`2208301050333_3.png`）  
+   ```markdown
+   ![任务管理界面](./public/screenshots/task_mobile_xiaomi13_1080p.jpg)
+   ```
 
 ---
 
@@ -25,8 +50,6 @@
    git push -u origin main
    ```
 
-
-
 ---
 
 ## 2024-01-03
@@ -35,9 +58,9 @@
    - 新增功能截图命名规则（来源：`2208301050333_3.png`）  
    ```markdown
    ### 主要功能
-   <img src="./public/screenshot_add_task.jpg" width="300" alt="移动端任务添加界面">
+   <img src="./public/screenshots/add_task_mobile.jpg" width="300" alt="小米13任务添加界面">
    ```
-   - 要求所有截图包含设备环境标注（Desktop/Mobile/Tablet）
+   - 要求所有截图包含设备型号标注（如：`iPhone15 Pro`）
 
 2. **许可证声明强化**  
    - 补充 MIT 许可证的 SPDX 标识符（来源：`2208301050333_3.png`）  
@@ -55,29 +78,30 @@
    git checkout -b feat/add-chinese-docs
    git push --set-upstream origin feat/add-chinese-docs
    ```
-   - 要求 PR 必须关联 issue 编号
+   - 要求 PR 必须关联 JIRA 编号（格式：`PROJ-123`）
 
 2. **冲突解决指南**  
    - 新增 Markdown 文件合并冲突处理模板  
    ```markdown
    <<<<<<< HEAD
-   当前版本内容
+   | 旧版本表格内容 |
    =======
-   传入版本内容
-   >>>>>>> branch-name
+   | 新版本表格内容 |
+   >>>>>>> feature-branch
    ```
 
 ---
 
 ## 过渡性说明
-> 本次整合补充以下内容：  
-> - 统一中英文文档的截图目录结构为 `/public/screenshots/`  
-> - 增加 Markdown 代码块的语法高亮标注（如 ` ```bash `）  
-> - 移除重复的 Git 初始化说明（共 2 处）  
+> 本次整合完成以下操作：  
+> 1. 合并重复的移动端标注规则（共3处）  
+> 2. 移除过期的 `images/` 目录引用（2处）  
+> 3. 统一所有代码块语言标注（如 ` ```vue ` → ` ```html `）  
+> 4. 修复日期错误（2025→2024）  
 
 ---
 
 **文档版本控制**  
-- 当前版本：v1.3.0  
-- 变更追踪：`git diff HEAD~4 modification_log.md`  
-
+- 当前版本：v1.5.0  
+- 变更追踪：`git diff v1.4.0..v1.5.0 modification_log.md`  
+```
