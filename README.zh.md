@@ -41,15 +41,21 @@
 ```bash
 git clone https://github.com/yang2205/Resume-Javascript.git
 cd Resume-Javascript-Project
-安装依赖
-bash
+```
+
+### 安装依赖
+```bash
 npm install
-运行应用
-bash
+```
+
+### 运行应用
+```bash
 npm run dev
 在浏览器中访问 http://localhost:8080 查看应用效果。
+```
 
-📦 项目结构
+## 📦 项目结构
+```
 Resume-Javascript-Project/
 ├── images/                   # 项目图片
 ├── css/                      # 样式表
@@ -62,7 +68,9 @@ Resume-Javascript-Project/
     ├── components/           # 可复用的 Vue 组件
     ├── App.vue               # 主应用组件
     └── main.js               # 应用入口点
-📮 技术栈分析
+```
+## 📮 技术栈分析
+```
 📝 Vue.js：
 用途：构建响应式组件系统和前端页面状态管理。
 在简历项目中的作用：如果简历项目需要“动态和交互性”（例如，通过点击切换内容或展开/折叠模块），Vue 可以简化 UI 构建和数据绑定。
@@ -78,9 +86,14 @@ Resume-Javascript-Project/
 📝 CSS（SASS 扩展语法）：
 用途：使 CSS 更有结构，支持变量、嵌套和混合等高级特性。
 在简历项目中的作用：更高效地组织样式，例如统一颜色变量和组件样式复用。
-!!总结!!:
+```
+## !!总结!!:
 本项目是一个结构清晰、功能完整的在线简历页面模板，适合用于展示开发者的专业信息，尤其适合前端初学者练习或制作个人作品集。
 
-许可证
+## 许可证
 本项目采用 MIT 许可证。有关详细信息，请参阅 [LICENSE 文件][LICENSE][def2]。
 [def2]: https://choosealicense.com/licenses/mit/
+
+## 致谢
+1.特别感谢所有为项目做出贡献或提供灵感的人。
+2.感谢 Vue.js 社区提供的宝贵资源与支持。
