@@ -92,11 +92,13 @@
 | **/* */** | JavaScript多行注释。                                                                |
 
 ##### 2.1.10版本控制术语
-<!-- 版本控制术语 作者：方慧铭 -->
-| 术语       | 命令示例                                  | 说明
-| 分支管理   | git branch feature-x                      | 功能开发隔离
-| 提交规范    | git commit -m "feat: add resume template"| Angular提交规范
-| 标签发布    | git tag v1.0.0                           | 标记版本里程碑
+<!-- 版本控制术语   作者:方慧铭 -->
+| 术语 | 命令示例 | 说明 |
+|------|----------|------|
+| **分支管理** | `git branch feature-x` | 功能开发隔离 |
+| **提交规范** | `git commit -m "feat: add resume template"` | Angular提交规范 |
+| **标签发布** | `git tag v1.0.0` | 标记版本里程碑 |
+
 
 ##### 2.1.11 其他
 | 术语            | 定义/功能                                                                     |
